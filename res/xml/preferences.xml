@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <Preference
+        android:key="prefsAbout"
+        android:summary="@string/description_app"
+        android:title="@string/intro" >
+    </Preference>
+    <Preference
+        android:summary="@string/feedbackEmailContent"
+        android:title="@string/feedbackEmail" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="mailto:caotuandung@gmail.com?subject=About Lịch Sử Phố Phường" >
+            <extra
+                android:name="android.intent.extra.TEXT"
+                android:value="Hi SIG Group, \n" />
+        </intent>
+    </Preference>
+    <Preference
+        android:key="prefsMoreFromSIG"
+        android:summary="@string/moreFromSIGContent"
+        android:title="@string/moreFromSIG" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="market://search?q=pub:Semantic Innovation Group" />
+    </Preference>
+    <Preference
+        android:key="prefsRateApp"
+        android:summary="@string/rateAppContent"
+        android:title="@string/rateApp" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="market://details?id=nvt.com.activity" />
+    </Preference>
+    <Preference
+        android:summary="@string/feedbackFacebookContent"
+        android:title="@string/feedbackFacebook" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://www.facebook.com/groups/426120447510378/" />
+    </Preference>
+    <Preference
+        android:key="prefsVersion"
+        android:summary="@string/current_version"
+        android:title="@string/version" >
+    </Preference>
+</PreferenceScreen>

@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/selector_listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"        
+        android:layout_marginRight="5dip">
+ 
+        <ImageView
+            android:id="@+id/image_danh_nhan"
+            android:scaleType="centerCrop"
+            android:layout_width="80dip"
+            android:layout_height="80dip"/> 
+    </LinearLayout>
+                
+    <TextView
+        android:id="@+id/name_danh_nhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textSize="15dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginRight="10dip"
+        android:text="ngo van thang" />    
+    
+    <!-- <TextView
+        android:id="@+id/link_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_danh_nhan"        
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textSize="15dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginRight="10dip"
+        android:text="ngo van thang" /> -->
+    
+    
+</RelativeLayout>

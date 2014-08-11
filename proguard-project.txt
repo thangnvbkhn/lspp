@@ -1,0 +1,92 @@
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-dontskipnonpubliclibraryclassmembers
+-dontpreverify
+-verbose
+-optimizations !code/simplification/arithmetic,!field/*,!class/merging/*
+
+-libraryjars libs
+
+-dontwarn android.support.**
+-dontwarn com.google.android.gms.**
+
+#Keep classes that are referenced on the AndroidManifest
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+-keep public class com.android.vending.licensing.ILicensingService
+
+-keep class android.support.v4.** { *; }
+-keep class com.google.common.**{ *; }
+-keep class org.apache.commons.codec.** { *; }
+
+-keepclasseswithmembernames class javax.annotation.Nullable{
+    native <methods>;
+}
+
+#keep all public and protected methods that could be used by java reflection
+-keepclassmembernames class * {
+  public protected <methods>;
+}
+
+# For native methods, see http://proguard.sourceforge.net/manual/examples.html#native
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+# keep setters in Views so that animations can still work.
+-keepclassmembers public class * extends android.view.View {
+   void set*(***);
+   *** get*();
+}
+
+# To remove debugs log
+-assumenosideeffects class android.util.Log {
+    public static *** d(...);
+    public static *** v(...);
+    public static *** w(...);
+}
+
+
+# We want to keep methods in Activity that could be used in the XML attribute onClick
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
+}
+
+
+#To maintain custom components names that are used on layouts XML:
+-keep public class * extends android.view.View {
+    public <init>(android.content.Context);
+    public <init>(android.content.Context, android.util.AttributeSet);
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+
+# For enumeration classes, see http://proguard.sourceforge.net/manual/examples.html#enumerations
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keep class * implements android.os.Parcelable {
+  	public static final android.os.Parcelable$Creator *;
+}
+
+
+#Keep the R
+
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
+
+
+-keep public class * {
+	public protected *;
+}
+
+

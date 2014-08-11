@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/bg_selector"
+    android:gravity="center_vertical|center_horizontal"
+    android:padding="2dp"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/dialog_button_ok"
+        android:layout_marginTop="1.5dp"
+        android:layout_width="160dip"
+        android:layout_height="50dp"      
+        android:text="@string/thongbao_co" />
+
+    <Button
+        android:id="@+id/dialog_button_cancel"
+        android:layout_marginTop="1.5dp"
+        android:layout_width="160dip"
+        android:layout_height="50dp"        
+        android:layout_marginLeft="0.5dip"
+        android:text="@string/thongbao_khong" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#c50300"
+    android:layout_width="match_parent"
+    android:layout_height="40dip">
+
+    <!-- logo -->
+    <TextView
+        android:id="@+id/textview_name_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="45dip"
+        android:textColor="#FFFFFF"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:text="@string/danhnhan" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dip"
+        android:src="@drawable/bando32x32" />
+    
+    <ImageView
+        android:id="@+id/img_view_click"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:src="@drawable/maps_action"
+        android:layout_marginRight="10dip" />
+    
+</RelativeLayout>

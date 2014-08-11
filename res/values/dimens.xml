@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- About Activity -->    
+    <dimen name="size_title_activity_about">25dp</dimen>
+    <dimen name="size_content_activity_about">17dp</dimen>
+    <dimen name="margin_left_right_activity_about">10dp</dimen>
+    <dimen name="margin_bottom_top_activity_about">5dp</dimen>
+    
+    <!-- Main Activity -->
+    <dimen name="text_size_activity_main">10dp</dimen>
+    <dimen name="margin_activity_main">10dp</dimen>
+    <dimen name="margin_right_activity_main">10dp</dimen>
+</resources>

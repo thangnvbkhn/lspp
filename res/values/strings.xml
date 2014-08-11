@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="menu">Menu</string>
+    <string name="adunitid">ca-app-pub-8195778844781144/1784967519</string>
+    <string name="adunitid_test">ca-app-pub-5457969215847862/9181653833</string>
+    <string name="app_name">Phố Phường Hà Nội</string>
+    <string name="title_btn_go">Go</string>
+    <string name="menu_search">Tìm Kiếm</string>
+    <string name="menu_about">Thông Tin</string>
+    <string name="edt_search">Nhập vào đây</string>
+    <string name="pho_phuong">Phố Phường</string>
+    <string name="contentDescriptionImage">Day la anh search</string>
+
+    <!-- Activity About -->
+ 	<string name="information">Thông tin</string>
+ 	<string name="intro">Giới thiệu</string>
+    <string name="exit">Thoát</string>
+    <string name="contact">Liên lạc</string>
+    <string name="description_app">"Phố Phường Hà Nội là ứng dụng cung cấp thông tin lịch sử của các con phố trên thành phố Hà Nội.
+Ứng dụng được phát triển bởi nhóm nghiên cứu SIG.
+© Copyright SIG, 2013. Mọi quyền được bảo lưu."</string>    
+    <string name="feedbackEmail">Liên Lạc</string>
+    <string name="feedbackEmailContent">"Liên hệ : Cao Tuấn Dũng, caotuandung@gmail.com
+Bạn có thể gửi phản hồi đến nhóm phát triển SIG"</string>
+    <string name="feedbackFacebook">Facebook</string>
+    <string name="feedbackFacebookContent">Like ứng dụng trên Facebook</string>
+    <string name="rateApp">Đánh giá</string>
+    <string name="rateAppContent">Đánh giá ứng dụng Lịch Sử Hà Nội trên Google Play</string>
+    <string name="moreFromSIG">Các ứng dụng từ nhóm SIG</string>
+    <string name="moreFromSIGContent">"-Điểm Đến Việt: phần mềm cung cấp dịch vụ thông tin địa điểm và hướng dẫn du lịch thông minh.
+Và còn nhiều ứng dụng hữu ích khác nữa.Các bạn có thể xem thêm tại đây"</string>
+    <string name="activity_about_name_logo">Thông tin</string>
+    <string name="version">Phiên bản ứng dụng</string>
+    <string name="current_version">"1.0\n
+- Địa điểm hỗ trợ : Hà Nội"</string>
+    
+    <string name="quan">Chọn Quận</string>
+    <string name="phuong">Phường</string>
+    <string name="danhnhan">Danh Nhân</string>
+    <string name="danhnhan_sukien">Danh Nhân Sự Kiện</string>
+    <string name="home">Quay Về Trang Chủ</string>
+    <string name="menu_view_map">View Map</string>
+    <string name="con_pho_lich_su">Con Phố - Lịch Sử</string>
+    <string name="danh_nhan_viet_nam">Danh Nhân Việt Nam</string>
+    <string name="choice_danh_nhan_settings">Hiển Thị</string>
+    <string name="danh_sach">Danh Sách</string>
+    <string name="tab">Tab</string>
+    <string name="hint">Nhập vào từ khóa</string>
+    <string name="txt_btnDisplay">Kiểm tra</string>
+
+    <!-- GPS Tracker -->
+    <string name="notify_no_connection">Không có kết nối mạng</string>
+
+    <!-- Main Activity -->
+    
+    <string name="name_button_search">Search</string>
+    <string name="nhap_tu_khoa">Nhập vào từ khóa</string>
+    <string name="language">Ngôn Ngữ</string>
+    <string name="huongdan">Click vào 1 điểm trên bản đồ để xem thông tin</string>
+    <string name="thongbao">Thông Báo</string>
+    <string name="thongbao_choice_language">Chon ngôn ngữ</string>
+    <string name="language_vietnamese">Tiếng Việt</string>
+    <string name="language_english">Tiếng Anh</string>
+    <string name="thongbao_ban_co_muon_thoat_khong">Bạn có muốn thoát khỏi ứng dụng không?</string>
+    <string name="thongbao_go">Xem</string>
+    <string name="thongbao_co">Có</string>
+    <string name="thongbao_khong">Không</string>
+    <string name="thongbao_ban_nhap_tu_khoa">Bạn nhập từ khóa</string>
+    <string name="thongbao_khong_tim_thay_ket_qua">Không tìm thấy kết quả</string>
+    <string name="thongbao_chua_co_du_lieu">Hiện tại hệ thống chỉ có dữ liệu trên Hà Nôi hoặc thông tin về phố hiện chưa có trong hệ thống.Chúng tôi sẽ cập nhật trong thời gian sớm nhất</string>    
+	<string name="thongbao_chon_diem">Chọn Điểm</string>
+	<string name="thongbao_chon_dia_diem_nay_khong">Bạn có muốn chọn điểm này không?</string>	
+	<string name="thongbao_tryagain">Xin vui lòng thử lại lần nữa</string>
+	<string name="thongbao_khong_xac_dinh_duoc_vi_tri">Không xác định được vị trí</string>
+	<string name="thongbao_dang_tai_du_lieu">Đang tải dữ liệu</string>
+	<string name="thongbao_loading">Xin đợi 1 chút</string>
+	
+	
+	<!-- SplashScreen -->
+	<string name="thongbao_caidatmang">Cài đặt mạng</string>
+	<string name="thongbao_retry">Thử lại</string>
+	<string name="thongbao_exit">Thoát</string>
+	<string name="thongbao_khong_co_ket_noi_mang_try_again">Không có kết nối mạng,thử lại lần nữa</string>
+</resources>

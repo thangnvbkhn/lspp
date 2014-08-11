@@ -1,0 +1,19 @@
+# view res/layout/test.xml #generated:2
+-keep class com.google.android.gms.maps.MapFragment { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:56
+# view res/layout/mymap.xml #generated:2
+-keep class com.google.android.gms.maps.SupportMapFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class nvt.com.activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class nvt.com.activity.PreferenceSetting { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class nvt.com.activity.ShowDescriptionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class nvt.com.activity.SplashScreen { <init>(...); }
+

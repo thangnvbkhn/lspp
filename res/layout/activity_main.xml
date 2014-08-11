@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout_activity1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DCE0DA"
+        android:orientation="horizontal" >
+
+        <AutoCompleteTextView
+            android:id="@+id/autocomplete_tv_activity_main"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/border_autocomplete"
+            android:hint="@string/hint" />
+
+        <ImageView
+            android:id="@+id/img_search_activity_main"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/border_button_search"
+            android:contentDescription="@string/contentDescriptionImage"
+            android:src="@drawable/search" />
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+
+    <LinearLayout
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:orientation="vertical" >
+    </LinearLayout>
+</LinearLayout>
